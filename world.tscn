@@ -1,10 +1,11 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=8 format=2]
 
 [ext_resource path="res://resources/tiles.tres" type="TileSet" id=1]
 [ext_resource path="res://entity/player.tscn" type="PackedScene" id=2]
 [ext_resource path="res://Circle of death.tscn" type="PackedScene" id=3]
 [ext_resource path="res://Lighttest.tscn" type="PackedScene" id=4]
 [ext_resource path="res://entity/enemy.tscn" type="PackedScene" id=5]
+[ext_resource path="res://assets/Sprites/Torch.tscn" type="PackedScene" id=6]
 
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 5.98154, 142.147 )
@@ -25,6 +26,7 @@ position = Vector2( 3264, 97 )
 scale = Vector2( 1.07813, 0.95703 )
 
 [node name="Lighting World" type="Node2D" parent="."]
+modulate = Color( 0.184314, 0.176471, 0.223529, 1 )
 
 [node name="ground-layer" type="TileMap" parent="Lighting World"]
 tile_set = ExtResource( 1 )
@@ -157,6 +159,10 @@ damage = 10
 chaseTarget = NodePath("../../Lighting World/YSort/player")
 maxSearchRadius = 256.0
 speed = 32
+
+[node name="Torch" parent="." instance=ExtResource( 6 )]
+position = Vector2( -97.0183, 582.162 )
+scale = Vector2( 0.0976323, 0.0914308 )
 
 [editable path="enemy"]
 
