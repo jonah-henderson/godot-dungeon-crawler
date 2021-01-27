@@ -58,6 +58,9 @@ chaseTarget = NodePath("../../../YSort/player")
 maxSearchRadius = 256.0
 minSearchRadius = 128.0
 
+[node name="enemy" parent="." instance=ExtResource( 3 )]
+position = Vector2( 415.779, 550.129 )
+
 [editable path="enemies/chaser"]
 
 [editable path="enemies/chaser2"]
