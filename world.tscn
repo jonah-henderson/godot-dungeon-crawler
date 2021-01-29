@@ -6,6 +6,7 @@
 [ext_resource path="res://Lighttest.tscn" type="PackedScene" id=4]
 [ext_resource path="res://entity/enemy.tscn" type="PackedScene" id=5]
 [ext_resource path="res://assets/Sprites/Torch.tscn" type="PackedScene" id=6]
+[ext_resource path="res://assets/music/gloaming-glade.ogg" type="AudioStream" id=7]
 
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 5.98154, 142.147 )
@@ -20,10 +21,6 @@ scale = Vector2( 1.75, 1.25 )
 [node name="local light2" parent="." instance=ExtResource( 4 )]
 position = Vector2( 3136, 65 )
 scale = Vector2( 1.26953, 0.958008 )
-
-[node name="local light3" parent="." instance=ExtResource( 4 )]
-position = Vector2( 3264, 97 )
-scale = Vector2( 1.07813, 0.95703 )
 
 [node name="Lighting World" type="Node2D" parent="."]
 modulate = Color( 0.184314, 0.176471, 0.223529, 1 )
@@ -163,6 +160,11 @@ speed = 32
 [node name="Torch" parent="." instance=ExtResource( 6 )]
 position = Vector2( -97.0183, 582.162 )
 scale = Vector2( 0.0976323, 0.0914308 )
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 7 )
+volume_db = -16.0
+autoplay = true
 
 [editable path="enemy"]
 

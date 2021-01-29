@@ -27,7 +27,7 @@ _global_script_class_icons={
 [application]
 
 config/name="Dungeon-crawl"
-run/main_scene="res://world.tscn"
+run/main_scene="res://ui/screens/main_menu.tscn"
 config/icon="res://icon.png"
 
 [gdnative]
@@ -68,5 +68,5 @@ ui_down={
 [rendering]
 
 quality/2d/use_pixel_snap=true
-environment/default_clear_color=Color( 0.301961, 0.301961, 0.301961, 1 )
+environment/default_clear_color=Color( 0.160784, 0.14902, 0.203922, 1 )
 environment/default_environment="res://default_env.tres"
