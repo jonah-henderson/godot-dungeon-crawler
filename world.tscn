@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=2]
+[gd_scene load_steps=9 format=2]
 
 [ext_resource path="res://resources/tiles.tres" type="TileSet" id=1]
 [ext_resource path="res://entity/player.tscn" type="PackedScene" id=2]
@@ -76,202 +76,205 @@ shape = SubResource( 1 )
 position = Vector2( -61.0267, 37.1895 )
 shape = SubResource( 1 )
 
+[node name="Torches" type="YSort" parent="."]
+z_index = 2
+
+[node name="Torch" parent="Torches" instance=ExtResource( 6 )]
+position = Vector2( -96.4886, 580.632 )
+scale = Vector2( 0.0976323, 0.0914308 )
+
+[node name="Torch2" parent="Torches" instance=ExtResource( 6 )]
+position = Vector2( -16.5381, 359.673 )
+scale = Vector2( 0.0976323, 0.0914308 )
+
+[node name="Torch3" parent="Torches" instance=ExtResource( 6 )]
+position = Vector2( 101.775, 586.04 )
+scale = Vector2( 0.0976323, 0.0914308 )
+
+[node name="Torch4" parent="Torches" instance=ExtResource( 6 )]
+position = Vector2( -260.278, 360.776 )
+scale = Vector2( 0.0976323, 0.0914308 )
+
+[node name="Torch5" parent="Torches" instance=ExtResource( 6 )]
+position = Vector2( -420.918, 363.296 )
+scale = Vector2( 0.0976323, 0.0914308 )
+
+[node name="Torch6" parent="Torches" instance=ExtResource( 6 )]
+position = Vector2( -288.418, 203.296 )
+scale = Vector2( 0.0976323, 0.0914308 )
+
+[node name="Torch7" parent="Torches" instance=ExtResource( 6 )]
+position = Vector2( -173.533, 32.0593 )
+scale = Vector2( 0.0976323, 0.0914308 )
+
+[node name="Torch8" parent="Torches" instance=ExtResource( 6 )]
+position = Vector2( -17.9646, 111.708 )
+scale = Vector2( 0.0976323, 0.0914308 )
+
+[node name="Torch9" parent="Torches" instance=ExtResource( 6 )]
+position = Vector2( 64.222, 11.3001 )
+scale = Vector2( 0.0976323, 0.0914308 )
+
+[node name="Torch10" parent="Torches" instance=ExtResource( 6 )]
+position = Vector2( 136.287, -290.005 )
+scale = Vector2( 0.0976323, 0.0914308 )
+
+[node name="Torch11" parent="Torches" instance=ExtResource( 6 )]
+position = Vector2( -636.615, 184.598 )
+scale = Vector2( 0.0976323, 0.0914308 )
+
+[node name="Torch12" parent="Torches" instance=ExtResource( 6 )]
+position = Vector2( 274.69, -14.0574 )
+scale = Vector2( 0.0976323, 0.0914308 )
+
+[node name="Torch18" parent="Torches" instance=ExtResource( 6 )]
+position = Vector2( 551.15, -15.3419 )
+scale = Vector2( 0.0976323, 0.0914308 )
+
+[node name="Torch19" parent="Torches" instance=ExtResource( 6 )]
+position = Vector2( 653.23, -208.165 )
+scale = Vector2( 0.0976323, 0.0914308 )
+
+[node name="Torch20" parent="Torches" instance=ExtResource( 6 )]
+position = Vector2( 637.594, -521.453 )
+scale = Vector2( 0.0976323, 0.0914308 )
+
+[node name="Torch21" parent="Torches" instance=ExtResource( 6 )]
+position = Vector2( 303.84, -617.62 )
+scale = Vector2( 0.0976323, 0.0914308 )
+
+[node name="Torch22" parent="Torches" instance=ExtResource( 6 )]
+position = Vector2( 795.901, -1095.34 )
+scale = Vector2( 0.0976323, 0.0914308 )
+
+[node name="Torch23" parent="Torches" instance=ExtResource( 6 )]
+position = Vector2( -736.31, -930.986 )
+scale = Vector2( 0.0976323, 0.0914308 )
+
+[node name="Torch24" parent="Torches" instance=ExtResource( 6 )]
+position = Vector2( -265.307, -892.082 )
+scale = Vector2( 0.0976323, 0.0914308 )
+
+[node name="Torch25" parent="Torches" instance=ExtResource( 6 )]
+position = Vector2( -141.675, -891.148 )
+scale = Vector2( 0.0976323, 0.0914308 )
+
+[node name="Torch26" parent="Torches" instance=ExtResource( 6 )]
+position = Vector2( -144.258, -589.044 )
+scale = Vector2( 0.0976323, 0.0914308 )
+
+[node name="Torch27" parent="Torches" instance=ExtResource( 6 )]
+position = Vector2( -268.388, -589.057 )
+scale = Vector2( 0.0976323, 0.0914308 )
+
+[node name="Torch28" parent="Torches" instance=ExtResource( 6 )]
+position = Vector2( -503.403, -445.835 )
+scale = Vector2( 0.0976323, 0.0914308 )
+
+[node name="Torch29" parent="Torches" instance=ExtResource( 6 )]
+position = Vector2( -15.8907, -1131.57 )
+scale = Vector2( 0.0976323, 0.0914308 )
+
+[node name="Torch13" parent="Torches" instance=ExtResource( 6 )]
+position = Vector2( -700.843, 604.307 )
+scale = Vector2( 0.0976323, 0.0914308 )
+
+[node name="Torch14" parent="Torches" instance=ExtResource( 6 )]
+position = Vector2( -1076.43, 445.201 )
+scale = Vector2( 0.0976323, 0.0914308 )
+
+[node name="Torch15" parent="Torches" instance=ExtResource( 6 )]
+position = Vector2( -1033.09, 5.07391 )
+scale = Vector2( 0.0976323, 0.0914308 )
+
+[node name="Torch16" parent="Torches" instance=ExtResource( 6 )]
+position = Vector2( -670.174, -162.815 )
+scale = Vector2( 0.0976323, 0.0914308 )
+
+[node name="Torch17" parent="Torches" instance=ExtResource( 6 )]
+position = Vector2( -433.96, -64.2925 )
+scale = Vector2( 0.0976323, 0.0914308 )
+
 [node name="enemy" parent="." instance=ExtResource( 5 )]
 position = Vector2( 488.212, 92.6534 )
-damage = 10
+damage = 25
 
 [node name="Chaser" parent="enemy" index="2"]
 chaseTarget = NodePath("../../Lighting World/YSort/player")
 maxSearchRadius = 256.0
-speed = 32
+speed = 90
 
 [node name="enemy2" parent="." instance=ExtResource( 5 )]
 position = Vector2( -459.437, 205.918 )
-damage = 10
+damage = 25
 
 [node name="Chaser" parent="enemy2" index="2"]
 chaseTarget = NodePath("../../Lighting World/YSort/player")
 maxSearchRadius = 256.0
-speed = 32
+speed = 90
 
 [node name="enemy3" parent="." instance=ExtResource( 5 )]
 position = Vector2( -833.212, -113.111 )
-damage = 10
+damage = 25
 
 [node name="Chaser" parent="enemy3" index="2"]
 chaseTarget = NodePath("../../Lighting World/YSort/player")
 maxSearchRadius = 256.0
-speed = 32
+speed = 90
 
 [node name="enemy4" parent="." instance=ExtResource( 5 )]
 position = Vector2( -100.765, -47.04 )
-damage = 10
+damage = 25
 
 [node name="Chaser" parent="enemy4" index="2"]
 chaseTarget = NodePath("../../Lighting World/YSort/player")
 maxSearchRadius = 256.0
-speed = 32
+speed = 90
 
 [node name="enemy5" parent="." instance=ExtResource( 5 )]
 position = Vector2( 552.396, -294.335 )
-damage = 10
+damage = 25
 
 [node name="Chaser" parent="enemy5" index="2"]
 chaseTarget = NodePath("../../Lighting World/YSort/player")
 maxSearchRadius = 256.0
-speed = 32
+speed = 90
 
 [node name="enemy6" parent="." instance=ExtResource( 5 )]
 position = Vector2( -572.702, -275.458 )
-damage = 10
+damage = 25
 
 [node name="Chaser" parent="enemy6" index="2"]
 chaseTarget = NodePath("../../Lighting World/YSort/player")
 maxSearchRadius = 256.0
-speed = 32
+speed = 90
 
 [node name="enemy7" parent="." instance=ExtResource( 5 )]
 position = Vector2( -212.142, -636.018 )
-damage = 10
+damage = 25
 
 [node name="Chaser" parent="enemy7" index="2"]
 chaseTarget = NodePath("../../Lighting World/YSort/player")
 maxSearchRadius = 256.0
-speed = 32
+speed = 90
 
 [node name="enemy8" parent="." instance=ExtResource( 5 )]
 position = Vector2( -877.788, -707.347 )
-damage = 10
+damage = 25
 
 [node name="Chaser" parent="enemy8" index="2"]
 chaseTarget = NodePath("../../Lighting World/YSort/player")
 maxSearchRadius = 256.0
-speed = 32
+speed = 90
 
 [node name="enemy9" parent="." instance=ExtResource( 5 )]
 position = Vector2( 92.2125, -955.347 )
-damage = 10
+damage = 25
 
 [node name="Chaser" parent="enemy9" index="2"]
 chaseTarget = NodePath("../../Lighting World/YSort/player")
 maxSearchRadius = 256.0
-speed = 32
-
-[node name="Torch" parent="." instance=ExtResource( 6 )]
-position = Vector2( -96.4886, 581.632 )
-scale = Vector2( 0.0976323, 0.0914308 )
-
-[node name="Torch2" parent="." instance=ExtResource( 6 )]
-position = Vector2( -16.5381, 360.673 )
-scale = Vector2( 0.0976323, 0.0914308 )
-
-[node name="Torch3" parent="." instance=ExtResource( 6 )]
-position = Vector2( 101.775, 587.04 )
-scale = Vector2( 0.0976323, 0.0914308 )
-
-[node name="Torch4" parent="." instance=ExtResource( 6 )]
-position = Vector2( -260.278, 361.776 )
-scale = Vector2( 0.0976323, 0.0914308 )
-
-[node name="Torch5" parent="." instance=ExtResource( 6 )]
-position = Vector2( -420.918, 364.296 )
-scale = Vector2( 0.0976323, 0.0914308 )
-
-[node name="Torch6" parent="." instance=ExtResource( 6 )]
-position = Vector2( -288.418, 204.296 )
-scale = Vector2( 0.0976323, 0.0914308 )
-
-[node name="Torch7" parent="." instance=ExtResource( 6 )]
-position = Vector2( -173.533, 33.0593 )
-scale = Vector2( 0.0976323, 0.0914308 )
-
-[node name="Torch8" parent="." instance=ExtResource( 6 )]
-position = Vector2( -17.9646, 112.708 )
-scale = Vector2( 0.0976323, 0.0914308 )
-
-[node name="Torch9" parent="." instance=ExtResource( 6 )]
-position = Vector2( 64.222, 12.3001 )
-scale = Vector2( 0.0976323, 0.0914308 )
-
-[node name="Torch10" parent="." instance=ExtResource( 6 )]
-position = Vector2( 136.287, -289.005 )
-scale = Vector2( 0.0976323, 0.0914308 )
-
-[node name="Torch11" parent="." instance=ExtResource( 6 )]
-position = Vector2( -636.615, 185.598 )
-scale = Vector2( 0.0976323, 0.0914308 )
-
-[node name="Torch12" parent="." instance=ExtResource( 6 )]
-position = Vector2( 274.69, -13.0574 )
-scale = Vector2( 0.0976323, 0.0914308 )
-
-[node name="Torch18" parent="." instance=ExtResource( 6 )]
-position = Vector2( 551.15, -14.3419 )
-scale = Vector2( 0.0976323, 0.0914308 )
-
-[node name="Torch19" parent="." instance=ExtResource( 6 )]
-position = Vector2( 653.23, -207.165 )
-scale = Vector2( 0.0976323, 0.0914308 )
-
-[node name="Torch20" parent="." instance=ExtResource( 6 )]
-position = Vector2( 637.594, -520.453 )
-scale = Vector2( 0.0976323, 0.0914308 )
-
-[node name="Torch21" parent="." instance=ExtResource( 6 )]
-position = Vector2( 303.84, -616.62 )
-scale = Vector2( 0.0976323, 0.0914308 )
-
-[node name="Torch22" parent="." instance=ExtResource( 6 )]
-position = Vector2( 795.901, -1094.34 )
-scale = Vector2( 0.0976323, 0.0914308 )
-
-[node name="Torch23" parent="." instance=ExtResource( 6 )]
-position = Vector2( -736.31, -929.986 )
-scale = Vector2( 0.0976323, 0.0914308 )
-
-[node name="Torch24" parent="." instance=ExtResource( 6 )]
-position = Vector2( -265.307, -891.082 )
-scale = Vector2( 0.0976323, 0.0914308 )
-
-[node name="Torch25" parent="." instance=ExtResource( 6 )]
-position = Vector2( -141.675, -890.148 )
-scale = Vector2( 0.0976323, 0.0914308 )
-
-[node name="Torch26" parent="." instance=ExtResource( 6 )]
-position = Vector2( -144.258, -588.044 )
-scale = Vector2( 0.0976323, 0.0914308 )
-
-[node name="Torch27" parent="." instance=ExtResource( 6 )]
-position = Vector2( -268.388, -588.057 )
-scale = Vector2( 0.0976323, 0.0914308 )
-
-[node name="Torch28" parent="." instance=ExtResource( 6 )]
-position = Vector2( -503.403, -444.835 )
-scale = Vector2( 0.0976323, 0.0914308 )
-
-[node name="Torch29" parent="." instance=ExtResource( 6 )]
-position = Vector2( -15.8907, -1130.57 )
-scale = Vector2( 0.0976323, 0.0914308 )
-
-[node name="Torch13" parent="." instance=ExtResource( 6 )]
-position = Vector2( -700.843, 605.307 )
-scale = Vector2( 0.0976323, 0.0914308 )
-
-[node name="Torch14" parent="." instance=ExtResource( 6 )]
-position = Vector2( -1076.43, 446.201 )
-scale = Vector2( 0.0976323, 0.0914308 )
-
-[node name="Torch15" parent="." instance=ExtResource( 6 )]
-position = Vector2( -1033.09, 6.07391 )
-scale = Vector2( 0.0976323, 0.0914308 )
-
-[node name="Torch16" parent="." instance=ExtResource( 6 )]
-position = Vector2( -670.174, -161.815 )
-scale = Vector2( 0.0976323, 0.0914308 )
-
-[node name="Torch17" parent="." instance=ExtResource( 6 )]
-position = Vector2( -433.96, -63.2925 )
-scale = Vector2( 0.0976323, 0.0914308 )
+speed = 90
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 7 )

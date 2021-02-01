@@ -10,6 +10,7 @@ texture = ExtResource( 1 )
 
 [node name="Light2D" type="Light2D" parent="."]
 scale = Vector2( 2.31938, 2.40159 )
+z_index = 5
 texture = ExtResource( 2 )
 texture_scale = 10.12
 energy = 1.16
