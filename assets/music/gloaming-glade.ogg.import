@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/gloaming-glade.ogg-1170c2f6bb78bf08694ac18f8d389456.oggstr"
+
+[deps]
+
+source_file="res://assets/music/gloaming-glade.ogg"
+dest_files=[ "res://.import/gloaming-glade.ogg-1170c2f6bb78bf08694ac18f8d389456.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0
